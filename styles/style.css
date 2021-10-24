@@ -1,0 +1,105 @@
+:root{
+    --green: #2A6253;
+    --black:#2B2B2B;
+    --blue: #0F246A;
+    --pink: #EBD7C9;
+    --cream: #FCF9F8;
+
+}
+.bg-pink{
+    background-color: var(--pink);
+}
+body{
+    font-family: montserrat, sans-serif;
+}
+main{
+    
+    background-image: url(../images/pattern2b.jpg);
+    background-repeat: repeat;
+}
+header, footer{
+    background-image:url(../images/pattern1.png) ;
+    background-repeat: repeat-x;
+    background-size: contain;
+}
+footer{
+    height: 100px;
+}
+.footer-logo{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
+.hero{
+    max-height: 400px;
+    background-color: aliceblue;
+    width: 100%;
+    object-fit:cover;
+    
+}
+.navbar{
+    padding: 0;
+}
+button.navbar-toggler{
+    color: var(--green);
+}
+.navbar-toggler{
+    border-radius: 50px;
+    padding: .75rem;
+    background-color: var(--cream);
+}
+.navbar-light{
+    color: var(--green);
+}
+.navbar-light .navbar-nav .nav-link.active{
+    font-weight: 700;
+    color: var(--green);
+}
+.navbar-light .navbar-nav .nav-link{
+    color: var(--green);
+}
+.form-control{
+    border: 1px solid var(--green);
+    border-radius: 50px;
+}
+.bg-white{
+    background-color: var(--cream);
+}
+h1{
+    font-family: eskorte-latin, serif; 
+    color: var(--green);
+}
+h2{
+    font-family: montserrat, sans-serif; 
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+h5{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    color: white;
+    font-weight: 900;
+    font-size: 1.6rem;
+    
+}
+.product-cat{
+    position: relative;
+    
+}
+.product-cat-img{
+    object-fit: cover;
+    height: 300px;
+    width: auto;
+}
+.btn-primary{
+    background-color: var(--green);
+    color: var(--cream);
+    border:none;
+}
+.btn-primary:hover{
+    background-color: var(--pink);
+    color: var(--green);
+}
