@@ -13,7 +13,7 @@ body{
     font-family: montserrat, sans-serif;
 }
 main{
-    
+    height: 100vh;
     background-image: url(../images/pattern2b.jpg);
     background-repeat: repeat;
 }
@@ -102,4 +102,16 @@ h5{
 .btn-primary:hover{
     background-color: var(--pink);
     color: var(--green);
+}
+.product-category{
+    background: var(--pink);
+    height: 100%;
+}
+
+.h1-product{
+    width: 100%;
+}
+
+.nav-icon{
+    color: var(--green)
 }

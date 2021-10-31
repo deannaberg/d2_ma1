@@ -1,0 +1,38 @@
+a{
+    text-decoration: none;
+    color: var(--black)
+}
+a:hover {
+    color: var(--green);
+}
+
+fav-heart{
+    background-color: var(--pink);
+   z-index: 100;
+}
+button{
+    border: 0 none;
+}
+.product-img{
+    border: 5px solid var(--cream);
+}
+
+.product-placeholder{
+    background-color: var(--pink);
+    height: 80%;
+}
+
+.product-hero{
+   filter: blur(4px) ;
+   width: 100%;
+   height: 400px;
+   object-fit: cover;
+}
+
+.product-hero-contain{
+    border: 3px solid var(--cream);
+    height: 200px;
+    width: 100%;
+    background-image: url;
+   
+}
